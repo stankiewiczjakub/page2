@@ -258,10 +258,6 @@ a:hover, a:active, a:focus {
   margin-bottom: 10px;
 }
 
-.contact-fixed p {
-  color: white;
-}
-
 .flag {
   margin: 0px 20px 0px 20px;
 }
@@ -349,7 +345,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #home {
-    background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+    background: url('../images/home-bg.jpeg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
     display: -webkit-box;
@@ -484,15 +480,16 @@ a:hover, a:active, a:focus {
    Service section
 -----------------------------------------*/
 
-#service .service-thumb {
-  padding: 0 22px;
+.apteki1 {
+  max-width: 700px;
+  max-height: auto;
+  margin-bottom: 50px;
 }
 
-#service .fa {
-  font-size: 62px;
-  margin-bottom: 6px;
+.apteki2 {
+  max-height: 350px;
+  max-width: auto;
 }
-
 
 
 /*---------------------------------------
